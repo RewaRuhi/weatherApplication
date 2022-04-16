@@ -53,7 +53,7 @@ function showWeatherReport(weather){
         document.body.style.backgroundImage = "url('cloud.jpg')";
     }else if(weatherType.textContent == 'Rain'){
         document.body.style.backgroundImage = "url('rain.jpg')";
-    }else if (weatherType.textContent == 'snow'){
+    }else if (weatherType.textContent == 'Snow'){
         document.body.style.backgroundImage = "url('snow.jpg')";
     }else if (weatherType.textContent == 'Thunderstorm'){
         document.body.style.backgroundImage = "url('thunderstorm.jpg')";
